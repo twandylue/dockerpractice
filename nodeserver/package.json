@@ -1,0 +1,24 @@
+{
+  "name": "dockerpractice",
+  "version": "1.0.0",
+  "description": "pactice docker stuff.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Andy Lu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.10",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
